@@ -1,0 +1,191 @@
+
+*{ box-sizing: border-box; }
+html { overflow-x: hidden; display: flex; flex-direction: column;}
+body { margin: 0px; display: flex; flex-direction: column; }
+#head
+{
+	position:fixed;
+	top: 0px;
+	z-index: 2;
+	width: 100%;
+}
+
+#header
+{
+	background: rgb(46,50,44);
+	height: 200px;
+}
+
+#logo
+{
+	float: left;
+	padding: 6px;
+	width: 150px;
+	height: 150px;
+}
+
+
+
+#title
+{
+	margin: 0px 10% 0px 10%;
+	text-align: center;
+	font-family:sans-serif;
+	color:rgb(231, 72, 26);
+	font-size: 40px;
+}
+
+#subtitle
+{
+	color: rgb(231, 72, 26);
+	margin: 0px 10% 0px 10%;
+	text-align: center;
+	font-style: oblique;
+	padding-left: 50px;
+}
+
+#menu
+{
+	text-align: -webkit-center;
+	text-align: center;
+	position: relative;
+	top: -40px;
+	padding: 0px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#menu li
+{
+	display: inline-block;
+}
+
+
+#menu img
+{
+	width: 80px;
+	height: 80px;
+}
+
+#body
+{
+	margin-top: 210px;
+	display: flex;
+	flex-direction: column;
+}
+.texts
+{
+	width: 75%;
+	padding: 6px;
+	height: auto;
+	margin: auto;
+	color: black;
+	z-index: 1;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.texts img
+{
+	float: left;
+	transform: rotate(-15deg);
+	width: 80px;
+	height: 80px;
+}
+
+.titles
+{
+	flex-shrink: 0;
+	flex-basis: 250px;
+}
+
+.titles h2
+{
+	color: rgb(231, 72, 26);
+	margin: 0px 0px 0px 100px;
+	padding-top: 20px;
+}
+.texts_1
+{
+	margin-top: 50px;
+	width: 33%;
+	padding: 6px;
+	text-align: left; 
+	font-size: 20px;
+	color: rgb(231, 72, 26);
+	background: rgb(46,50,44, 0.8);
+}
+
+.texts_2
+{
+	float: right;
+	width: 66%;
+	margin-top: 50px;
+	padding: 6px;
+	color: black;
+	background:rgb(231, 72, 26, 0.8);
+}
+
+.clear
+{
+	clear: both;
+}
+
+#form
+{
+	margin-top: 50px;
+}
+
+form div
+{
+	margin-top: 15px;
+}
+
+label
+{
+	display: inline-block;
+	width: 90px;
+	text-align: right;
+}
+
+.inp
+{
+	font: 1em sans-serif;
+	width: 300px;
+	box-sizing: border-box;
+}
+
+#sendMail
+{
+	position: relative;
+	margin-top: 5px;
+	left: 92px;
+	height: 30px;
+	background: rgb(231, 72, 26);
+}
+
+#footer
+{
+	margin-top: 70px;
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background: rgb(46,50,44);
+}
+
+#logo2
+{
+	float: right;
+	width: 160px;
+	height: 180px;
+	padding: 8px;
+}
+
+#coord
+{
+	margin: auto;
+	padding-top: 80px;
+	width: 150px;
+	color: rgb(231, 72, 26);
+}
